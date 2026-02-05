@@ -57,18 +57,9 @@ body {
 }
 
 .nav-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.3px;
-}
-
-.nav-logo {
-  width: 28px;
-  height: 28px;
-  border-radius: 6px;
 }
 
 .nav-link {
@@ -101,6 +92,20 @@ body {
   text-align: center;
   max-width: 640px;
   z-index: 2;
+}
+
+.hero-logo {
+  margin-bottom: 32px;
+}
+
+.hero-logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 28px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.1),
+    0 25px 50px -12px rgba(0, 0, 0, 0.6),
+    0 0 80px rgba(34, 197, 94, 0.15);
 }
 
 .hero-badge {
