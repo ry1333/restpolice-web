@@ -171,6 +171,32 @@ body {
   margin-bottom: 40px;
 }
 
+.hero-subtitle-detail {
+  font-size: clamp(15px, 2.5vw, 18px);
+  color: var(--text-muted);
+}
+
+.hero-watch-note {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  padding: 8px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.hero-preview-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .hero-cta {
   display: flex;
   gap: 12px;
